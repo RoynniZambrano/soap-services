@@ -2,12 +2,14 @@ package com.royforthewin.soapserviceproducer.services;
 
 import com.royforthewin.soapserviceproducer.repositories.CountryRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.ws.server.endpoint.annotation.Endpoint;
 import org.springframework.ws.server.endpoint.annotation.PayloadRoot;
 import org.springframework.ws.server.endpoint.annotation.RequestPayload;
 import org.springframework.ws.server.endpoint.annotation.ResponsePayload;
 import ws.soap.GetCountryRequest;
 import ws.soap.GetCountryResponse;
 
+@Endpoint
 public class CountryEndpoint {
     private static final String NAMESPACE_URI = "http://spring.io/guides/gs-producing-web-service";
 

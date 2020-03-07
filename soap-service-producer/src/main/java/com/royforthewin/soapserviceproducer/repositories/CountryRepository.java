@@ -1,5 +1,6 @@
 package com.royforthewin.soapserviceproducer.repositories;
 
+import org.springframework.stereotype.Repository;
 import org.springframework.util.Assert;
 import ws.soap.Country;
 import ws.soap.Currency;
@@ -8,6 +9,7 @@ import javax.annotation.PostConstruct;
 import java.util.HashMap;
 import java.util.Map;
 
+@Repository
 public class CountryRepository {
     private static final Map<String, Country> countries = new HashMap<>();
 
