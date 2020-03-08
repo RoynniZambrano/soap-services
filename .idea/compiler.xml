@@ -6,15 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="soap-service-consumer" />
         <module name="soap-service-producer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="soap-service-consumer" target="1.8" />
       <module name="soap-service-producer" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="soap-service-consumer" options="-parameters" />
       <module name="soap-service-producer" options="-parameters" />
     </option>
   </component>
