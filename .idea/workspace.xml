@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7688756a-493c-4e0e-940e-107b19cb34a9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_31.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_31.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_31.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_2_5_RELEASE.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soap-service-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/soap-service-consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soap-service-consumer/src/main/java/com/royforthewin/soapserviceconsumer/SoapServiceConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/soap-service-consumer/src/main/java/com/royforthewin/soapserviceconsumer/SoapServiceConsumerApplication.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +57,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.SoapServiceConsumerApplication">
+    <configuration name="SoapServiceConsumerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.royforthewin.soapserviceconsumer.SoapServiceConsumerApplication" />
+      <module name="soap-service-consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.royforthewin.soapserviceconsumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SoapServiceProducerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.royforthewin.soapserviceproducer.SoapServiceProducerApplication" />
       <module name="soap-service-producer" />
@@ -67,6 +86,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SoapServiceConsumerApplication" />
         <item itemvalue="Application.SoapServiceProducerApplication" />
       </list>
     </recent_temporary>
